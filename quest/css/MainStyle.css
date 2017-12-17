@@ -1,0 +1,137 @@
+ header{
+ 	height: 150px;
+ 	width: 100%;
+ }
+ .conteiner{
+ 	width: 100%;
+ 	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.form{
+	padding: 10px;
+	border:2px solid blue;
+	border-radius: 5px;
+	float: left;
+	width: 300px;
+	margin-bottom: 350px;
+}
+.form input{
+	margin: 10px;
+}
+.but{
+	max-height: 100px;
+	float: right;
+	margin: 5px;
+	margin-right: 5%;
+	padding: 5px;
+	background-color: #2facb3;
+	color: white;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.but:hover{
+	font-size: 1.2em;
+}
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+#comment{
+	color: black;
+	padding: 5px;
+	width: 20%;
+	margin: auto;
+	font
+}
+#AuthReg{
+	padding: 5px;
+	width: 20%;
+	float: right;
+	margin-left: 10px; 
+}
+.content{
+	margin-top: 35px;
+	width: 250px;
+	text-align: justify;
+	padding: 4px;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: #0a0e0d;
+}
+.log{
+	border-bottom: 2px solid red;
+}
+.Message{
+	overflow-y: scroll;
+	max-height: 50px;
+	padding: 5px;
+	text-align: justify;
+	word-wrap: break-word;
+}
+.reply{
+	margin-top: 2px;
+	color: black;
+	background-color: 
+}
+#errorMessage{
+	color: black;
+}
+
+.com ul ul ul ul ul ul{
+	padding-left: 0px;
+}
+li{
+
+	border: 2px solid #87dad6;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 1.1em;
+	list-style-type:none;
+	min-width: 25px;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.name{
+	text-shadow: 1px 0px 1px white;
+	border-bottom: 1px solid red;
+}
+.reply{
+	cursor:pointer;
+	background-color: #cc66ff;
+	margin-left: 2px; 
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	
+}
+.reply:hover{
+	color: white;
+	font-size: 1.2em;
+	transition: 0.7s ease-in-out;
+}
+img{
+	width: 100%;
+}
+
+.delet{
+	cursor:pointer; 
+	margin-top: 5px;
+	background-color: #cc66ff;
+	margin-left: 2px; 
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	
+}
+.delet:hover{
+	color: white;
+	font-size: 1.2em;
+	transition: 0.7s ease-in-out;
+}
